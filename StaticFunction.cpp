@@ -26,3 +26,6 @@ public:
         setID();
     }
 };
+
+// inisialisasi static member
+int Mahasiswa::nim = 0;
