@@ -29,3 +29,14 @@ public:
 
 // inisialisasi static member
 int Mahasiswa::nim = 0;
+
+// pendefinisian prosedur di luar class
+void Mahasiswa::setID() {
+    id = ++nim;
+}
+
+void Mahasiswa::printAll() {
+    cout << "ID = " << id << endl;
+    cout << "Nama = " << nama << endl;
+    cout << endl;
+}
